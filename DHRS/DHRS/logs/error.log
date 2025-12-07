@@ -1,0 +1,813 @@
+Testing error log
+[12-Aug-2025 22:30:16 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_register.php
+[12-Aug-2025 22:30:16 Asia/Kolkata] Session data: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_register.php
+                )
+
+        )
+
+)
+
+[12-Aug-2025 22:30:28 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_register.php
+[12-Aug-2025 22:30:28 Asia/Kolkata] Session data: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_register.php
+                )
+
+        )
+
+)
+
+[12-Aug-2025 22:30:28 Asia/Kolkata] Flash message set in test_register.php
+[12-Aug-2025 22:30:28 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_register.php
+                )
+
+        )
+
+)
+
+[12-Aug-2025 22:30:45 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_register.php
+[12-Aug-2025 22:30:45 Asia/Kolkata] Session data: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_register.php
+                )
+
+        )
+
+)
+
+[12-Aug-2025 22:30:45 Asia/Kolkata] Flash message set in test_register.php
+[12-Aug-2025 22:30:45 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_register.php
+                )
+
+        )
+
+)
+
+[12-Aug-2025 22:31:16 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_register.php
+[12-Aug-2025 22:31:16 Asia/Kolkata] Session data: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_register.php
+                )
+
+        )
+
+)
+
+[12-Aug-2025 22:31:16 Asia/Kolkata] Flash message set in test_register.php
+[12-Aug-2025 22:31:16 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_register.php
+                )
+
+        )
+
+)
+
+[12-Aug-2025 22:31:16 Asia/Kolkata] display_flash_message called
+[12-Aug-2025 22:31:16 Asia/Kolkata] Session data in display_flash_message: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_register.php
+                )
+
+        )
+
+)
+
+[12-Aug-2025 22:31:16 Asia/Kolkata] display_flash_message called
+[12-Aug-2025 22:31:16 Asia/Kolkata] Session data in display_flash_message: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+)
+
+[12-Aug-2025 22:32:21 Asia/Kolkata] display_flash_message called
+[12-Aug-2025 22:32:21 Asia/Kolkata] Session data in display_flash_message: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+)
+
+[12-Aug-2025 22:32:21 Asia/Kolkata] display_flash_message called
+[12-Aug-2025 22:32:21 Asia/Kolkata] Session data in display_flash_message: Array
+(
+    [test_value] => This is a test value at 2025-08-12 18:58:59
+)
+
+[13-Aug-2025 20:13:35 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:13:35 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:13:37 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:13:37 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:13:50 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_flash.php
+[13-Aug-2025 20:13:50 Asia/Kolkata] Session data: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:13:50 Asia/Kolkata] Flash message set in test_flash.php
+[13-Aug-2025 20:13:50 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:13:50 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:13:50 Asia/Kolkata] Session data in display_flash_message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:13:53 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:13:53 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:13:53 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:13:53 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:14:37 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:14:37 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:14:37 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:14:37 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:14:46 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_flash.php
+[13-Aug-2025 20:14:46 Asia/Kolkata] Session data: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:14:46 Asia/Kolkata] Flash message set in test_flash.php
+[13-Aug-2025 20:14:46 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:14:46 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:14:46 Asia/Kolkata] Session data in display_flash_message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:14:49 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:14:49 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:14:49 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:14:49 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:15:34 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_redirect.php
+[13-Aug-2025 20:15:34 Asia/Kolkata] Session data: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:15:34 Asia/Kolkata] Flash message set in test_redirect.php
+[13-Aug-2025 20:15:34 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:15:34 Asia/Kolkata] Redirecting to: index.php
+[13-Aug-2025 20:15:34 Asia/Kolkata] Session data before redirect: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:15:34 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:15:34 Asia/Kolkata] Session data in display_flash_message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:15:34 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:15:34 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:16:52 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:16:52 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:16:52 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:16:52 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:17:05 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_redirect.php
+[13-Aug-2025 20:17:05 Asia/Kolkata] Session data: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:17:05 Asia/Kolkata] Flash message set in test_redirect.php
+[13-Aug-2025 20:17:05 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:17:05 Asia/Kolkata] Redirecting to: index.php
+[13-Aug-2025 20:17:05 Asia/Kolkata] Session data before redirect: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:17:05 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:17:05 Asia/Kolkata] Session data in display_flash_message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[13-Aug-2025 20:17:05 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:17:05 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:20:05 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:20:05 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:20:06 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:20:06 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[13-Aug-2025 20:20:06 Asia/Kolkata] display_flash_message called
+[13-Aug-2025 20:20:06 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:05:17 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:05:17 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:05:28 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:05:28 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:07:52 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:07:52 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:07:52 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:07:52 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:07:54 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:07:54 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:08:26 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:08:26 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:08:34 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:08:34 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:08:39 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:08:39 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:08:39 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:08:39 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:08:44 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_flash.php
+[19-Aug-2025 16:08:44 Asia/Kolkata] Session data: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:08:44 Asia/Kolkata] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /Applications/XAMPP/xamppfiles/htdocs/DHRS/includes/functions.php on line 157
+[19-Aug-2025 16:08:44 Asia/Kolkata] Flash message set in test_flash.php
+[19-Aug-2025 16:08:44 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:09:28 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_flash.php
+[19-Aug-2025 16:09:28 Asia/Kolkata] Session data: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:09:28 Asia/Kolkata] Flash message set in test_flash.php
+[19-Aug-2025 16:09:28 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_flash.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:09:33 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_redirect.php
+[19-Aug-2025 16:09:33 Asia/Kolkata] Session data: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:09:33 Asia/Kolkata] Flash message set in test_redirect.php
+[19-Aug-2025 16:09:33 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:09:33 Asia/Kolkata] Redirecting to: index.php
+[19-Aug-2025 16:09:33 Asia/Kolkata] Session data before redirect: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:09:33 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/DHRS/test_redirect.php:25) in /Applications/XAMPP/xamppfiles/htdocs/DHRS/includes/functions.php on line 246
+[19-Aug-2025 16:09:50 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:09:50 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:09:50 Asia/Kolkata] Flash message set: Type=success, Message=This is a test flash message from test_redirect.php
+[19-Aug-2025 16:09:50 Asia/Kolkata] Session data: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:09:50 Asia/Kolkata] Flash message set in test_redirect.php
+[19-Aug-2025 16:09:50 Asia/Kolkata] Session data after setting flash message: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:09:50 Asia/Kolkata] Redirecting to: index.php
+[19-Aug-2025 16:09:50 Asia/Kolkata] Session data before redirect: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => This is a test flash message from test_redirect.php
+                )
+
+        )
+
+)
+
+[19-Aug-2025 16:10:03 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:10:03 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:10:09 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:10:09 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:10:22 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:10:22 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[19-Aug-2025 16:10:22 Asia/Kolkata] display_flash_message called
+[19-Aug-2025 16:10:22 Asia/Kolkata] Session data in display_flash_message: Array
+(
+)
+
+[09-Sep-2025 22:46:28 Asia/Kolkata] Email would be sent to: test@example.com, Subject: Test Subject
+[09-Sep-2025 22:46:28 Asia/Kolkata] SMS would be sent to: 1234567890, Message: Test SMS Message
+[09-Sep-2025 22:46:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /Applications/XAMPP/xamppfiles/htdocs/DHRS/includes/auth.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/DHRS/includes/auth.php(483): mysqli->prepare('SELECT id, user...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/DHRS/test_forgot_password.php(82): request_password_reset('nonexistent@exa...')
+#2 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/DHRS/includes/auth.php on line 483
+[09-Sep-2025 22:46:48 Asia/Kolkata] Email would be sent to: test@example.com, Subject: Test Subject
+[09-Sep-2025 22:46:48 Asia/Kolkata] SMS would be sent to: 1234567890, Message: Test SMS Message
+[09-Sep-2025 22:46:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /Applications/XAMPP/xamppfiles/htdocs/DHRS/includes/auth.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/DHRS/includes/auth.php(483): mysqli->prepare('SELECT id, user...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/DHRS/test_forgot_password.php(82): request_password_reset('nonexistent@exa...')
+#2 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/DHRS/includes/auth.php on line 483
+[09-Sep-2025 22:47:00 Asia/Kolkata] Email would be sent to: test@example.com, Subject: Test Subject
+[09-Sep-2025 22:47:00 Asia/Kolkata] SMS would be sent to: 1234567890, Message: Test SMS Message
+[09-Sep-2025 22:50:03 Asia/Kolkata] Email would be sent to: test@example.com, Subject: Password Reset - Digital Health Record System
+[09-Sep-2025 22:50:22 Asia/Kolkata] Email would be sent to: test@example.com, Subject: Password Reset - Digital Health Record System
+[09-Sep-2025 22:50:58 Asia/Kolkata] Email would be sent to: reset_test@example.com, Subject: Password Reset - Digital Health Record System
+[09-Sep-2025 23:25:59 Asia/Kolkata] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /Applications/XAMPP/xamppfiles/htdocs/DHRS/test_unverified_account.php:40
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/DHRS/test_unverified_account.php(40): mysqli_stmt->bind_param('ssssssss', 'unverified_user', '$2y$10$KAqkdl25...', 'unverified@exam...', '1111111111', 'citizen', '012901', '2025-09-09 23:4...')
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/DHRS/test_unverified_account.php on line 40
+[09-Sep-2025 23:27:00 Asia/Kolkata] Email would be sent to: unverified_reset@example.com, Subject: Password Reset - Digital Health Record System
+[09-Sep-2025 23:27:00 Asia/Kolkata] Email would be sent to: unverified_reset@example.com, Subject: Password Reset - Digital Health Record System
+[26-Oct-2025 16:03:47 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dhrs_db.users' doesn't exist in C:\xampp\htdocs\DHRS\DHRS\includes\auth.php:312
+Stack trace:
+#0 C:\xampp\htdocs\DHRS\DHRS\includes\auth.php(312): mysqli->prepare('SELECT id, user...')
+#1 C:\xampp\htdocs\DHRS\DHRS\controllers\auth_controller.php(46): login_user('admin@dhrs.com', 'admin123')
+#2 C:\xampp\htdocs\DHRS\DHRS\index.php(104): AuthController->login()
+#3 {main}
+  thrown in C:\xampp\htdocs\DHRS\DHRS\includes\auth.php on line 312
+[26-Oct-2025 16:03:59 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dhrs_db.users' doesn't exist in C:\xampp\htdocs\DHRS\DHRS\includes\auth.php:312
+Stack trace:
+#0 C:\xampp\htdocs\DHRS\DHRS\includes\auth.php(312): mysqli->prepare('SELECT id, user...')
+#1 C:\xampp\htdocs\DHRS\DHRS\controllers\auth_controller.php(46): login_user('admin@dhrs.com', 'admin123')
+#2 C:\xampp\htdocs\DHRS\DHRS\index.php(104): AuthController->login()
+#3 {main}
+  thrown in C:\xampp\htdocs\DHRS\DHRS\includes\auth.php on line 312
+[26-Oct-2025 16:04:22 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dhrs_db.users' doesn't exist in C:\xampp\htdocs\DHRS\DHRS\includes\auth.php:312
+Stack trace:
+#0 C:\xampp\htdocs\DHRS\DHRS\includes\auth.php(312): mysqli->prepare('SELECT id, user...')
+#1 C:\xampp\htdocs\DHRS\DHRS\controllers\auth_controller.php(46): login_user('admin@dhrs.com', 'admin123')
+#2 C:\xampp\htdocs\DHRS\DHRS\index.php(104): AuthController->login()
+#3 {main}
+  thrown in C:\xampp\htdocs\DHRS\DHRS\includes\auth.php on line 312
+[26-Oct-2025 16:05:05 Asia/Kolkata] Redirecting to: index.php?controller=admin&action=dashboard
+[26-Oct-2025 16:05:05 Asia/Kolkata] Session data before redirect: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [email] => admin@dhrs.com
+    [phone] => 9999999999
+    [role] => admin
+    [logged_in] => 1
+    [last_activity] => 1761474905
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => Login successful. Welcome back!
+                )
+
+        )
+
+)
+
+[26-Oct-2025 16:05:18 Asia/Kolkata] Redirecting to: index.php
+[26-Oct-2025 16:05:18 Asia/Kolkata] Session data before redirect: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => You have been logged out successfully
+                )
+
+        )
+
+)
+
+[26-Oct-2025 16:06:20 Asia/Kolkata] Registration successful. User ID: 2
+[26-Oct-2025 16:06:20 Asia/Kolkata] Flash message set: Registration successful. For development purposes, your OTP is: 750991
+[26-Oct-2025 16:06:20 Asia/Kolkata] Redirecting to: index.php?controller=auth&action=verify_otp&user_id=2
+[26-Oct-2025 16:06:20 Asia/Kolkata] Session data before redirect: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => Registration successful. For development purposes, your OTP is: 750991 <a href="dev_messages.php" target="_blank" class="alert-link">View OTP in Development Messages</a>
+                )
+
+        )
+
+)
+
+[26-Oct-2025 16:06:28 Asia/Kolkata] Redirecting to: index.php?controller=auth&action=login
+[26-Oct-2025 16:06:28 Asia/Kolkata] Session data before redirect: Array
+(
+    [flash_messages] => Array
+        (
+            [danger] => Array
+                (
+                    [0] => Invalid verification request. Please try registering again.
+                )
+
+        )
+
+)
+
+[26-Oct-2025 16:07:22 Asia/Kolkata] Redirecting to: index.php?controller=admin&action=dashboard
+[26-Oct-2025 16:07:22 Asia/Kolkata] Session data before redirect: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [email] => admin@dhrs.com
+    [phone] => 9999999999
+    [role] => admin
+    [logged_in] => 1
+    [last_activity] => 1761475042
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => Login successful. Welcome back!
+                )
+
+        )
+
+)
+
+[26-Oct-2025 16:07:33 Asia/Kolkata] Redirecting to: index.php?controller=admin&action=manage_users
+[26-Oct-2025 16:07:33 Asia/Kolkata] Session data before redirect: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [email] => admin@dhrs.com
+    [phone] => 9999999999
+    [role] => admin
+    [logged_in] => 1
+    [last_activity] => 1761475042
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => User 'testone' has been activated successfully
+                )
+
+        )
+
+)
+
+[26-Oct-2025 16:07:43 Asia/Kolkata] Redirecting to: index.php
+[26-Oct-2025 16:07:43 Asia/Kolkata] Session data before redirect: Array
+(
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => You have been logged out successfully
+                )
+
+        )
+
+)
+
+[26-Oct-2025 16:07:55 Asia/Kolkata] Redirecting to: index.php?controller=citizen&action=dashboard
+[26-Oct-2025 16:07:55 Asia/Kolkata] Session data before redirect: Array
+(
+    [user_id] => 2
+    [username] => testone
+    [email] => sayyadkhajasadruddin22@gmail.com
+    [phone] => 9036896676
+    [role] => citizen
+    [logged_in] => 1
+    [last_activity] => 1761475075
+    [flash_messages] => Array
+        (
+            [success] => Array
+                (
+                    [0] => Login successful. Welcome back!
+                )
+
+        )
+
+)
+

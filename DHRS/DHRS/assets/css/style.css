@@ -1,0 +1,500 @@
+/**
+ * Main stylesheet for Digital Health Record System
+ */
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --success-color: #2ecc71;
+    --warning-color: #f39c12;
+    --danger-color: #e74c3c;
+    --info-color: #3498db;
+    --light-color: #ecf0f1;
+    --dark-color: #2c3e50;
+    --gray-color: #95a5a6;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --border-radius: 0.375rem;
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --transition: all 0.3s ease-in-out;
+}
+
+/* General Styles */
+html {
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: var(--dark-color) !important;
+    background-color: #f8f9fa !important;
+    line-height: 1.6 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100vh !important;
+}
+
+/* Main content wrapper */
+main.py-4 {
+    flex: 1 0 auto !important;
+    padding: 2rem 0 !important;
+}
+
+/* Ensure proper layout structure */
+.container, .container-fluid {
+    position: relative !important;
+}
+
+/* Force footer to bottom */
+footer.bg-dark {
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+    padding: 3rem 0 1.5rem !important;
+    margin-top: auto !important;
+    flex-shrink: 0 !important;
+    width: 100% !important;
+    position: relative !important;
+    clear: both !important;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.bg-primary {
+    background-color: var(--secondary-color) !important;
+}
+
+.text-primary {
+    color: var(--secondary-color) !important;
+}
+
+/* Header Styles */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.75rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    color: var(--dark-color);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--secondary-color);
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item:hover {
+    background-color: var(--light-color);
+    color: var(--secondary-color);
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 5rem 0;
+    background-color: var(--white-color);
+}
+
+.hero-section h1 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* Feature Icons */
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+/* Step Circles */
+.step-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Cards */
+.card {
+    transition: var(--transition);
+    border-radius: var(--border-radius);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow);
+}
+
+/* Footer - Additional styles */
+footer h5 {
+    color: var(--white-color);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+footer a {
+    color: var(--light-color);
+}
+
+footer a:hover {
+    color: var(--white-color);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+}
+
+/* Dashboard */
+.dashboard-card {
+    border-left: 4px solid var(--secondary-color);
+}
+
+.dashboard-icon {
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.required-field::after {
+    content: '*';
+    color: var(--danger-color);
+    margin-left: 4px;
+}
+
+/* Alerts */
+.alert-primary {
+    background-color: rgba(52, 152, 219, 0.1);
+    border-color: rgba(52, 152, 219, 0.2);
+    color: var(--secondary-color);
+}
+
+/* Badges */
+.badge-primary {
+    background-color: var(--secondary-color);
+}
+
+/* Pagination */
+.page-item.active .page-link {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.page-link {
+    color: var(--secondary-color);
+}
+
+.page-link:hover {
+    color: var(--primary-color);
+}
+
+/* Tables */
+.table-hover tbody tr:hover {
+    background-color: rgba(52, 152, 219, 0.05);
+}
+
+/* Profile */
+.profile-header {
+    background-color: var(--white-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-bottom: 2rem;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--white-color);
+    box-shadow: var(--box-shadow);
+}
+
+/* Medical Records */
+.medical-record-item {
+    border-left: 3px solid var(--secondary-color);
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.medical-record-date {
+    color: var(--gray-color);
+    font-size: 0.875rem;
+}
+
+/* Appointments */
+.appointment-card {
+    border-left: 4px solid;
+}
+
+.appointment-card.upcoming {
+    border-left-color: var(--info-color);
+}
+
+.appointment-card.completed {
+    border-left-color: var(--success-color);
+}
+
+.appointment-card.cancelled {
+    border-left-color: var(--danger-color);
+}
+
+/* Status Indicators */
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.status-indicator.active {
+    background-color: var(--success-color);
+}
+
+.status-indicator.pending {
+    background-color: var(--warning-color);
+}
+
+.status-indicator.inactive {
+    background-color: var(--danger-color);
+}
+
+/* Prescriptions */
+.prescription-header {
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.prescription-footer {
+    border-top: 1px solid var(--light-color);
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+}
+
+.medicine-item {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--light-color);
+}
+
+.medicine-item:last-child {
+    border-bottom: none;
+}
+
+/* Lab Reports */
+.lab-report-header {
+    background-color: var(--light-color);
+    padding: 1rem;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.lab-report-body {
+    padding: 1.5rem;
+}
+
+.lab-test-result {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--light-color);
+}
+
+.lab-test-result:last-child {
+    border-bottom: none;
+}
+
+.lab-test-name {
+    font-weight: 500;
+}
+
+.lab-test-value.normal {
+    color: var(--success-color);
+}
+
+.lab-test-value.abnormal {
+    color: var(--danger-color);
+}
+
+/* Vaccinations */
+.vaccination-timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.vaccination-timeline::before {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--light-color);
+}
+
+.vaccination-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.vaccination-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
+
+.vaccination-date {
+    font-size: 0.875rem;
+    color: var(--gray-color);
+}
+
+/* Notifications */
+.notification-item {
+    padding: 1rem;
+    border-bottom: 1px solid var(--light-color);
+    transition: var(--transition);
+}
+
+.notification-item:hover {
+    background-color: rgba(52, 152, 219, 0.05);
+}
+
+.notification-item.unread {
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+.notification-time {
+    font-size: 0.75rem;
+    color: var(--gray-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767.98px) {
+    .hero-section {
+        padding: 3rem 0;
+    }
+    
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .dashboard-card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    .print-only {
+        display: block !important;
+    }
+    
+    body {
+        font-size: 12pt;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .prescription-header,
+    .lab-report-header {
+        background-color: #fff !important;
+        color: #000 !important;
+        border: 1px solid #000;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-up {
+    animation: slideInUp 0.5s ease-in-out;
+}
