@@ -34,5 +34,5 @@ Manage citizen and doctor accounts
 
 View system activity
 
-
 Maintain master data records
+![image alt](https://github.com/vinaykumarh74/DHRS/blob/94510a5ddbcdd3c304c7fdd0edebaf4b1d26d24b/IMG-20251206-WA0061.jpg)
