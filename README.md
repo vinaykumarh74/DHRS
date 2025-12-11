@@ -1,4 +1,4 @@
-DHRS
+#DHRS
 Description :
 The Digital Health Record System (DHR) provides a unified platform for citizens to upload health reports, book appointments, manage prescriptions, and maintain complete medical history. Healthcare providers can access authorized patient records, add diagnoses, upload prescriptions, and manage appointments.
 
